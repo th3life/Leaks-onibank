@@ -1,0 +1,63 @@
+CREATE TABLE `onibank` (
+  `number` int(11) NOT NULL PRIMARY KEY auto_increment,
+  `gender` varchar(6) NOT NULL,
+  `givenname` varchar(20) NOT NULL,
+  `emailaddress` varchar(100) NOT NULL,
+  `middleinitial` varchar(1) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(25) NOT NULL,
+  `telephonenumber` tinytext NOT NULL,
+  `telephonecountrycode` int NOT NULL
+);
+
+insert into onibank values('1','female','Marisa','MarisaGoncalvesPereira@teleworm.us','G','Jaboatão dos Guararapes','Livelyins','rauVei2voh','(81) 5707-6891',55);
+insert into onibank values('2','male','Igor','IgorAraujoPinto@einrot.com','A','São Paulo','Vaid1983','ith0saiW','(11) 7881-7497',55);
+insert into onibank values('3','male','Nicolash','NicolashMeloAlmeida@fleckens.hu','M','São Paulo','Prieved','ahphooxeK7ee','(11) 6837-2546',55);
+insert into onibank values('4','male','Paulo','PauloCardosoFernandes@armyspy.com','C','Santa Cruz do Sul','Therad','RaeCh5koo','(51) 4749-5278',55);
+insert into onibank values('5','male','Felipe','FelipeGoncalvesAraujo@gustr.com','G','Cruzeiro','Gabsoorchim','ax1eeQuajae','(61) 3545-5893',55);
+insert into onibank values('6','female','Sofia','SofiaCarvalhoCunha@armyspy.com','C','São José do Rio Preto','Warge1968','ohFuef8phoo','(17) 8356-6063',55);
+insert into onibank values('7','female','Nicole','NicolePereiraAlmeida@superrito.com','P','Jundiaí','Whisconce','eiTh8iph1','(11) 9269-3474',55);
+insert into onibank values('8','female','Carla','CarlaMeloFernandes@einrot.com','M','Lages','Theeninfam','shahr7ahKoo','(49) 5205-9729',55);
+insert into onibank values('9','female','Isabella','IsabellaOliveiraCavalcanti@gustr.com','O','Manaus','Unked1979','ahXo8ahyai','(92) 9332-8508',55);
+insert into onibank values('10','female','Anna','AnnaSantosGoncalves@cuvox.de','S','São Paulo','Sheyetterly','ap5aXer1','(11) 8322-6628',55);
+insert into onibank values('11','female','Sophia','SophiaAraujoDias@dayrep.com','A','Belo Horizonte','Haided','uBahjae9aa','(31) 2593-4114',55);
+insert into onibank values('12','female','Giovanna','GiovannaAraujoMelo@einrot.com','A','São Paulo','Mearge','ie1Thij9coo','(11) 8339-9670',55);
+insert into onibank values('13','male','Lucas','LucasBarrosCunha@jourrapide.com','B','Salvador','Hoatherand83','shaMo8xai9','(71) 2781-7770',55);
+insert into onibank values('14','male','Matheus','MatheusGoncalvesCarvalho@cuvox.de','G','Bagé','Stromend','ing9bir4Th','(53) 2155-9024',55);
+insert into onibank values('15','male','Vitor','VitorCastroBarbosa@cuvox.de','C','São Leopoldo','Folady','Rohpoogi3Sh','(51) 3679-2794',55);
+insert into onibank values('16','female','Ana','AnaDiasSilva@teleworm.us','D','Rio de Janeiro','Ghave1969','ieTio4ui4oo','(21) 8826-2921',55);
+insert into onibank values('17','male','Douglas','DouglasRochaFernandes@superrito.com','R','Criciúma','Uniont78','ooma5Nee2l','(48) 3754-7645',55);
+insert into onibank values('18','female','Rebeca','RebecaCostaFernandes@rhyta.com','C','Chapecó','Othoung','ahlie0Phei3','(49) 8316-6934',55);
+insert into onibank values('19','female','Vitória','VitoriaFerreiraAlmeida@superrito.com','F','Salvador','Yourrable1967','Yee2kohqu','(71) 5045-5932',55);
+insert into onibank values('20','male','Breno','BrenoCardosoCunha@gustr.com','C','Duque de Caxias','Whistring','eet2JeiJoh3','(21) 3988-7480',55);
+insert into onibank values('21','female','Livia','LiviaAlvesMartins@fleckens.hu','A','Belo Horizonte','Whirds68','Ahphu1Heephee','(31) 9070-5895',55);
+insert into onibank values('22','female','Marina','MarinaCastroPinto@teleworm.us','C','Rio de Janeiro','Wallst','Ohb1eizai','(21) 9488-4882',55);
+insert into onibank values('23','male','João','JoaoCavalcantiMartins@fleckens.hu','C','Duque de Caxias','Norly1975','ahGoo7Taequ','(21) 2753-2234',55);
+insert into onibank values('24','male','João','JoaoGoncalvesBarbosa@cuvox.de','G','Limeira','Crod1971','eewahng1Bei','(19) 9753-9583',55);
+insert into onibank values('25','male','Felipe','FelipeDiasCorreia@superrito.com','D','Boa Vista','Tary1988','aiv4aighooYi','(95) 5681-2703',55);
+insert into onibank values('26','female','Isabela','IsabelaCarvalhoPereira@dayrep.com','C','Maceió','Tray1971','Ye9eekahvaeJ','(82) 9979-4193',55);
+insert into onibank values('27','female','Luiza','LuizaCostaAlves@rhyta.com','C','Santa Cruz do Sul','Struntio','aiZae3Bae7','(51) 2417-7198',55);
+insert into onibank values('28','male','Erick','ErickAlvesCastro@einrot.com','A','Santo André','Uning1970','yahYu3Iufoo','(11) 2047-7268',55);
+insert into onibank values('29','male','Matheus','MatheusBarbosaPinto@armyspy.com','B','Valparaíso de Goiás','Minced1975','Ceivoo4eih1','(61) 4457-3976',55);
+insert into onibank values('30','female','Mariana','MarianaCorreiaCosta@jourrapide.com','C','Belém','Jast1966','Aishoogha6ae','(91) 9316-8662',55);
+insert into onibank values('31','female','Beatrice','BeatriceBarrosAzevedo@rhyta.com','B','Uberaba','Leamaband','eiTitee2u','(34) 3263-7944',55);
+insert into onibank values('32','female','Camila','CamilaPintoFerreira@einrot.com','P','Pindamonhangaba','Bearbing','Coobe7kee','(12) 6810-7062',55);
+insert into onibank values('33','female','Beatrice','BeatriceCarvalhoSantos@armyspy.com','C','Vila Velha','Forritan','ooxie7iNauk','(27) 7353-3375',55);
+insert into onibank values('34','male','Vinícius','ViniciusSantosFerreira@einrot.com','S','Maringá','Duct1973','ohb0As4na7','(44) 6568-5585',55);
+insert into onibank values('35','male','Miguel','MiguelGoncalvesRibeiro@cuvox.de','G','Campinas','Wifich','Yimai4uuch','(19) 4155-8957',55);
+insert into onibank values('36','male','Luiz','LuizSousaGoncalves@rhyta.com','S','São Paulo','Easom1972','xonief8aVei','(11) 2840-3459',55);
+insert into onibank values('37','male','Luís','LuisCardosoSantos@superrito.com','C','Belford Roxo','Milethave','sai8eov8M','(21) 2369-9350',55);
+insert into onibank values('38','female','Matilde','MatildeFernandesCavalcanti@rhyta.com','F','Diadema','Muccam','ohJeih6vuu','(11) 2419-8425',55);
+insert into onibank values('39','male','Miguel','MiguelRibeiroSouza@dayrep.com','R','Presidente Prudente','Covelf70','tae5EihohG','(18) 3211-5001',55);
+insert into onibank values('40','female','Carla','CarlaPereiraFernandes@dayrep.com','P','Natal','Cones1979','owohNgu7Ei','(84) 8651-8249',55);
+insert into onibank values('41','male','Bruno','BrunoCorreiaAraujo@dayrep.com','C','Tatuí','Altaid','Oov7ahphai4goh','(15) 8802-6084',55);
+insert into onibank values('42','male','Kaua','KauaAraujoSantos@teleworm.us','A','Jacareí','Thichimphed','ofaiph9Shie','(12) 2271-5018',55);
+insert into onibank values('43','male','Vitór','VitorGomesOliveira@jourrapide.com','G','Santa Maria','Opinkh80','Heeria2Oo','(61) 6528-3293',55);
+insert into onibank values('44','male','Vitor','VitorGomesDias@armyspy.com','G','Goiânia','Thesustrach','Eimei4chiag','(62) 5852-8099',55);
+insert into onibank values('45','female','Sarah','SarahFerreiraCardoso@teleworm.us','F','Ponta Grossa','Godis1964','Ooyei7xaim','(42) 9198-3036',55);
+insert into onibank values('46','female','Sarah','SarahLimaPereira@jourrapide.com','L','Fortaleza','Tasootoor1965','aiqu9Aadee','(85) 4323-6413',55);
+insert into onibank values('47','female','Rebeca','RebecaCunhaCorreia@gustr.com','C','Uberlândia','Hourn1979','bamaeNilu5ie','(34) 6788-6746',55);
+insert into onibank values('48','female','Gabrielle','GabrielleBarbosaRodrigues@jourrapide.com','B','Porto Alegre','Froat1974','umu3FeZ7du','(51) 4972-6440',55);
+insert into onibank values('49','female','Maria','MariaSouzaMartins@teleworm.us','S','São Paulo','Hiscoutiould','aqu2aGh7Loh','(11) 4524-9128',55);
+insert into onibank values('50','female','Rebeca','RebecaSousaAlves@armyspy.com','S','Itu','Hattp1984','phaep2Wai','(11) 8334-4885',55);
